@@ -22,3 +22,5 @@ Ao acessar o website, os usuários têm a opção de escolher entre os temas "li
 - JavaScript
 
 ## Link da Aplicação 🔗
+
+[Changing themes](https://andressavcon.github.io/changing-themes/)
