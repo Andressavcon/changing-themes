@@ -1,0 +1,62 @@
+* {
+  color: var(--fontColor);
+  font-family: 'Tilt Neon', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+body {
+  background: var(--bg);
+  display: flex;
+  justify-content: space-around;
+}
+
+:root {
+  --dark-text: #ffb8c1;
+  --dark-bg: #1f1f1f;
+  --dark-btn: #59363c;
+
+  --light-text: #47000a;
+  --light-bg: #e0e0e0;
+  --light-btn: #c9a6ac;
+}
+
+li {
+  list-style: circle;
+}
+
+.list {
+  list-style: square;
+}
+
+.light-theme {
+  --bg: var(--light-bg);
+  --fontColor: var(--light-text);
+  --btnBg: var(--light-btn);
+  --btnFontColor: var(--light-text);
+}
+
+.dark-theme {
+  --bg: var(--dark-bg);
+  --fontColor: var(--dark-text);
+  --btnBg: var(--dark-btn);
+  --btnFontColor: var(--dark-text);
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 30px;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline-style: none;
+}
